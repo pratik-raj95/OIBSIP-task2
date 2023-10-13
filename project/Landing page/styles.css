@@ -1,0 +1,115 @@
+
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+.hero {
+    background-image: url('hotel-background-2qosz2h6xb1xpnka.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    
+    
+}
+
+.hero-content {
+    height: 300px;
+    
+   
+    margin: 0 auto;
+    
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: rgb(33, 100, 245);
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: rgb(17, 181, 222);
+}
+.contact-info{
+    color: #f2f2f2;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contact-info,
+.social-media {
+    flex: 1;
+    padding: 10px;
+}
+
+.contact-info h3,
+.social-media h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.social-icon {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social-icon:hover {
+    text-decoration: underline;
+}
